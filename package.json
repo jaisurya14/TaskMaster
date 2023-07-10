@@ -1,0 +1,22 @@
+{
+  "name": "task-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "install": "electron-rebuild",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0",
+    "electron-rebuild": "^3.2.9"
+  }
+}
